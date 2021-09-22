@@ -1,48 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anaz Hassan</title>
 </head>
+
 <body>
-    <h1>Anaz's Website</h1>
-    <h2>Welcome To My Website</h2>
-    <p>This is the first paragraph of my final project</p>
-    <!-- Above is my paragraph -->
-    <img src="file-20210510-5797-xqoxsr.jpg" alt="view" width="200" height="225">
-    <a href="putting-a-dollar-value-on-nature-will-give-governments-and-businesses-more-reasons-to-protect-it-153968 (1).htm"> Here is a link to the Website</a>
-    <style>
-        body {
-          background-color: lightblue;
-        }
-        </style>
-        <ol>
-          <h2>Cafe Menu</h2>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> Anaz hassan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="old.html">old html </a>
+            </li>
+            
+                
+            </li>
+            <li class="nav-item">
 
-<ul>
-  <li>Coffee</li>
-  <li>Tea
-    <ul>
-      <li>Black tea</li>
-      <li>Green tea</li>
-    </ul>
-  </li>
-  <li>Milk</li>
-</ul>
-Choose a car:</label>
+            </li>
+          </ul>
+       
+        </div>
+      </nav>
+      <br>
+<br>
+        <div class="imgClass">
+          This is an image div <br>
+            <!-- Add a class with custom styling to this div -->
+            <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg" class="img-fluid" alt="car">
 
-<select name="cars" id="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select>
-<li>What do you like about the image above</li> <input type = "Answer here" name ="" value="">
-<li>Why do you like it</li> <input type = "Answer here" name ="" value="">
-<li>List one thing you see</li> <input type = "Answer here" name ="" value="">
-        </ol>
-       <p>yes</p> <input type="radio" value="radio">
-        <p>no</p><input type="radio" value="radio">
-        <p>When you are done submit asnwer</p><input type="button" value="Submit Answers"/>
+        </div>
 
-        </html>
+        <!-- Add the same class as before to apply the same styling to this div.
+           ALSO add an id to this div to apply something unique. -->
+        <div class="imgClass" id="colorID">
+          <!-- Add a class with custom styling to this div -->
+          This is also an image div <br>
+          <img src="data:image/jpeg;base64,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" class="img-fluid" alt="car">
+
+      </div>
+
+
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUVFRUVFRgXFxUXFxUVFRUWFhUXFRcYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAJ8BPgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QALRAAAgICAQMCBQQCAwAAAAAAAAECEQMhMUFRYQQSE3GBkaGxweHwFNEiMvH/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIDBAYF/8QAHhEBAQACAwEBAQEAAAAAAAAAAAECEQMSITFBUWH/2gAMAwEAAhEDEQA/APr0paFjyWcyyOhqy3VTu67MZu+ooyC9PvwJNFy26IPSKOXDko6IytEZTScbtQxAVWNAAUADAAAAAAGAgHYxDAAACQxWAANAIAAYhgAAgACZtpaVvtr9xylX9sZCQhSiMTYqHPnmoqkcXqsje9a58m3q49eV+hw58iaas+dz8l9jv4cJ5WGRvqifa30KoFa2j57uQo3wQ4nUslp/giHnZFwlJlWUMXc1hhXUuDs0UfBpjxxXLOtYyNIswS7lKR6bTzcrrxKxZkkw9K9Nltpsz/Wv3FikdUHoyUCnYvpj4pTtmhnjiaFKvDCwHRCQAAADFQNgFDCgAAAYAAAADEFEgYIdCAYAAAIdAABQhgBLiUEo2qe7Is2mMcuKNO+pwZMCf7HoZor/ALPiKejllK3fByc+Mt1Y6eG2TyuJ+m7scMKOpmbgzlvHjPkdPe36lwvTX4BQRok+vHTkEW6xXdZLHXApQNWkZzZFxkiZaiI6IsXxD72nwtuiM6T2dGFo4C8M2nZW4pxz1XoqaKswjNProcZbM9NuzoQwQGbQDEMABiGAUMQADGCAAGIYDAVgAwoQEh14AQwAAABUMAAYWIABAhkxil0q3b+YFHn5MTi/HQ7yZxT5/v0M+TDtGnHn1rgiM6JY4t1X7EZ8FbX1RzXjsjeZysGxWNszbMbWsimzKbKVg4lL6vPHJKYIybKhI9Hrx5zfrogUjD3lpldLdnTx1/8ACoNs5ovvx+xeOe/BW4rTJ2Y8lHVZxRkaxkjLLFvjk1nk7ck45vqL3fkqCZGvFt7rSxoYGa4sAABgIYAADAQwCiQAAMAEMLAAAAAYh2AAAAAAJX1S8fIBRT3ffXheSqBAQIyySVnH8XyduSFqjgnhnHpr8HPzdpfPjo4uuvWcl5+mxRj5X5FOWuaOWU7vfKS+xhjx9vWuXJ18d/wXaVp2r0Vkx+3sziwZJWnt19Pmdsott6ZplxzGfFMOS5X68qhEyYlDZ9p8OqXJqjNY9mi0KRpFiclZKdjS7FVnViN0cmF7OpMyyb43xaHGT6EFRKrx0KaK2YJFwl9TOxpK1AlO+gyqxgKxgA2ICQxAMBDQAADoQUAUAwoBIACwGAAgGIAsACgBIAsnJJJNvoUc3rG6+f6k4zdRldTbgzYozfu83rsNYEt0jVE0zaYxzXKlJI2w551/s53Hz/JdMtfUTx5yErrYi6Lz1lZoRl9RRlsTiuH30EsXb++Bd/hjr9aQyc9DJvZnA0Rhll43xxdWKR0Qd6OaDrh9ToxyS2+S1yhMa7IwVbkRGS7mfusKOLLmu/HbjwzXrrUFXJaVHDbTtHTHN9ut6+xOPLv6ZcWvjawFY7NGYAAABiGSALAAAAGAgsYAIaFQwAQDAQEZMqSfWugpZkr7pWr66J1Udo1SAjFNtJlkJgE0MieSqGtm9HZOXGmv7oxy5U3of+RWnsvMb+KXOfrly6bIhkvRt6iSff8Ak5vdT4N8fY5svK2KpkKQyqXiz9V2NIZVLwcKCXg58eXKVvnx42PS91V1DJkeqOPG2mtmz/vzNsuXcY48WqFfUtMSRUTG1tI1izpxb0ckZM7vS8fUpnlqNOPHdaqIMGTNWcjrUxp/X59CYl4cbl8hN2+F1J664v7rkozilF11f5os7ZvXrlut+GABQQLGFASABDAYgGAAAAAAAAZ5s3tVmhwepm3J9lwv3LYTdUzy1CnmcvGqr9TNspktm8/xz2/10ekz1abrsdE8sV1+x565NIyKZYTe18c7Jp1wy9e919DmyZLe2KU2Zzd6ZOOJlntC9TT0ilmTXT9DGeHqm34M0zXrL8Yd8p9bPgymaTVJGNfMmIyaYOdnTRyQlXcJzfki47qZlqPDTKSEkaRPm3J9CYqx2uDoMsLVnUq6fcjHJbLFFFG+Kmv+XciWOn3LzL8VuPm4lHZ6ZKudmGKHWjpx4631K8mU0vx43bZAmu4IUI1x3MfG36Ejp9O9UYGkObv8FsPKjP2OihkqxnS5jAQwChisCQwoAAYgAAABgJAMAEzz3Gm+h6F9DL1ULWi+F1WeeO44nsPYVVC9psw0IpFfIWgISLYqK9xnJkorizx8ve1YljkldaOtQ2/PkMsfcqZr2Y9P1h8S2Uc8oyi+L8msJWrJsVl/rWKXcdGPuNYtVyVq8rxMcWzpjiX8mO0q4R0xPOcvJlfl8eh4uPGfZ61xR2tIUoJdbM5ZKIxt+SePO4zdOTCZXUdntXtt33XJGNtoMk29LSDBjNMef1TLg8dWGLTrozZ/UyjkXBSkT32iYaaRL0ZFJlpUWKscXRA4omVDaGRm8WcvtNFJm2OVn1lljK3BAkwNmJoBDAYCJ+KuBuRMm1gKx0SgWMQUAyW2M5vVSfHQnGbquV1HQ35Rzym1pnOsjFPKzWYMrybaSbb2ZtijMVl9M9rE2HvE5BBWJsqbMJstIrbo5S8iUXVLRj8TdFP1MfmX61n2n6xzO3V3RCdERY/ea6Y9ttXkvqOE2c/u69DX3IWJmSEikjNGi0eNnr2N8L2lhQUTdomlJjT8kKJpCtImbKvGjRCfYcEbYzTK1opGqMlEcTaVlY0kVEIRs2+Ctbap3rr4Zrjjb8ZZZSJSLgtl+wzvt/s11plvbZOx6MJzfJrF2jSZb8UuOl0ZTy14LegnFP5E5b/Ca/WWPNbd/T6GWWW7JlCm0Do5blbNV0TGS7jrxPRaOdZNfY0jKkb45xjljV5JpGX+T/fBlOdsVGeXLbfF8eOa9dMM0X4vuPNkUVtHJOIZsut8Lt+C/Hy7uslOTj1N4pySV60Q2a4PTp8t8J9OGYZklJpdDuxsvkcGUs9qQGJGjNVA0CdkttEJ8JszkirE5FopWLrm1X6HHl50mufqdeZWqZxTyOXyNsHPyVcWCJjfFFNF1Ico65/0EJE0Ee4Tt//Z" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLgdL7upvRaRIdqAJgcy6RNftUZ_yiZ2ec0Q&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyrOtb5Ws9OooCpau_R9-Q5LF7BKAq4zll2Q&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
+
+    <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
+         and a header row and add at least three more rows. Feel free to change the text.-->
+         <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">animal</th>
+              <th scope="col">toes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Marco</td>
+              <td>monkey</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>anaz</td>
+              <td>ant</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>abdul</td>
+              <td>ant eatear</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+    </div>
+</body>
+
+</html>
